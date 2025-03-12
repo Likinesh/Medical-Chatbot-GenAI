@@ -1,0 +1,15 @@
+#As we use open source embedding model(vector embedding)
+sentence-transformers==2.2.2
+langchain
+flask
+#For pdf file
+pypdf
+python-dotenv
+pinecone[grpc]
+langchain-pinecone
+langchain_community
+langchain_openai
+langchain_experimental
+
+# TO setup as local packages
+-e .
